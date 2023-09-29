@@ -1,11 +1,30 @@
 {
   "compilerOptions": {
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "baseUrl": "src",
-    "outDir": "dist",
-    "sourceMap": true,
-    "noImplicitAny": true
+     "lib": [
+        "es6"
+     ],
+     "target": "es6",
+     "module": "commonjs",
+     "moduleResolution": "node",
+     "outDir": "dist",
+     "resolveJsonModule": true,
+     "emitDecoratorMetadata": true,
+     "esModuleInterop": true,
+     "experimentalDecorators": true,
+     "sourceMap": true
   },
-  "include": ["src/**/*", "src/index.ts"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
+
+// {
+//   "compilerOptions": {
+//     "module": "NodeNext",
+//     "moduleResolution": "NodeNext",
+//     "baseUrl": "src",
+//     "outDir": "dist",
+//     "sourceMap": true,
+//     "noImplicitAny": true
+//   },
+//   "include": ["src/**/*", "src/index.ts"]
+// }
