@@ -5,10 +5,9 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "nodemon -x ts-node src/index.ts",
-    "start": "node src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "dev": "nodemon",
+    "build": "tsc",
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
