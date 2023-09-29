@@ -6,7 +6,7 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "nodemon -x ts-node src/index.ts",
-    "start": "nodemon",
+    "start": "nodemon index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
