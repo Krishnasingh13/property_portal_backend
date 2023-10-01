@@ -1,11 +1,10 @@
 {
-  "type": "module",
   "name": "property_portal_backend",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "index.ts",
   "scripts": {
-    "start": "ts-node-dev index.ts",
+    "start": "nodemon",
     "build": "tsc"
   },
   "keywords": [],
