@@ -4,16 +4,16 @@ import dotenv from "dotenv";
 import express from "express";
 import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
-import { verifyUser } from "../helpers/verifyUser";
+import { verifyUser } from "./helpers/verifyUser";
 
 import { S3Client } from "@aws-sdk/client-s3";
 
-import { connectWithDb } from "../config/db";
+import { connectWithDb } from "./config/db";
 
-import authRoutes from "../routes/auth";
-import propertyRoutes from "../routes/property";
-import publicRoutes from "../routes/public";
-import { addProperty } from "../controllers/property";
+import authRoutes from "./routes/auth";
+import propertyRoutes from "./routes/property";
+import publicRoutes from "./routes/public";
+import { addProperty } from "./controllers/property";
 
 dotenv.config();
 

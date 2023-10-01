@@ -5,7 +5,8 @@ import Property from "../models/Property";
 import { PutObjectCommand } from "@aws-sdk/client-s3";
 import sharp from "sharp";
 
-import { s3Client } from "../src/index";
+import { s3Client } from "..";
+
 
 export const getMyProperties = async (req: Request, res: Response) => {
   try {
